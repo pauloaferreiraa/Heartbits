@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayoutl xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.insulin.netural.medico.HealthTips">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="true"
+        android:minHeight="180sp"
+        android:orientation="vertical"
+        android:theme="@style/AppTheme"
+        app:titleTextAppearance="@style/myStyle"></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/question"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+
+            android:text="Ask me a question?" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High heat kills the germs that cause travelers'diarrhea, so food that is cooked throughtly is usually safe
+as long as it is served steaming hot. Be careful of food that is cooked and allowed to sit ar warm or room temperatures, such as on
+a buffet. It could become contaminated again. Most germs require moisture to grow, so food that is dry, such as bread or potato chips,
+is usually safe. Additionally, food from factory-sealed containers, such as canned tuna or package crackers, is safe as long as it was
+not opened and handled by another person."
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
+</LinearLayoutl>

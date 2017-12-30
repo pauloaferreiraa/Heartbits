@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "110322092933",
+    "firebase_url": "https://medico-cabbe.firebaseio.com",
+    "project_id": "medico-cabbe",
+    "storage_bucket": "medico-cabbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110322092933:android:f1d34d6c428c87f0",
+        "android_client_info": {
+          "package_name": "com.insulin.netural.medico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110322092933-qet65l1e40vshn0fho69q433rndbrk17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insulin.netural.medico",
+            "certificate_hash": "377c402ad13c7c59e1ba0b83912f8df3656e63f7"
+          }
+        },
+        {
+          "client_id": "110322092933-3pcl506kttr777v146ca969vj7jdjf10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insulin.netural.medico",
+            "certificate_hash": "f458495fc110005ea58eeabd23df598e7b2ab869"
+          }
+        },
+        {
+          "client_id": "110322092933-1122t1lan69q97qopkkifksr5crubjf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1l4lp9r_NTtsLDvkVp7refbHaa7frE5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110322092933-1122t1lan69q97qopkkifksr5crubjf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

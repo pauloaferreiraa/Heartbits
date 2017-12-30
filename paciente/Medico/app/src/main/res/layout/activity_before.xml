@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.insulin.netural.medico.activity_before">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="true"
+        android:minHeight="180sp"
+        android:orientation="vertical"
+        android:theme="@style/AppTheme"
+        app:titleTextAppearance="@style/myStyle"></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:background="#ffb74d"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/question"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+
+            android:hint="Ask me a question?" />
+
+        <Button
+            android:id="@+id/button"
+            android:background="@android:color/white"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_marginTop="30sp"
+        android:id="@+id/vacination"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:background="#e1f5fe"
+        android:text="Vacination" />
+    <Button
+        android:id="@+id/kit"
+        android:background="#b3e5fc"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:text="Personal Kit" />
+
+    <Button
+        android:background="#81d4fa"
+        android:id="@+id/diseases"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:text="Common Diseases" />
+    <Button
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="60sp"
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:background="#4fc3f7"
+        android:text="Health Tips" />
+
+</LinearLayout>

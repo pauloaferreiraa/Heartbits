@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.insulin.netural.medico.Main2Activity">
+
+    <ListView
+        android:id="@+id/historico"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:visibility="visible"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"></ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:padding="5sp"
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:hint="Mensagem"
+            android:visibility="visible"></EditText>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="enviar"
+            android:background="#ff9100"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
